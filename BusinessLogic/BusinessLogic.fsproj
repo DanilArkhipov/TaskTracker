@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models\User.fs" />
+    <Compile Include="Models\Task.fs" />
+    <Compile Include="Models\Table.fs" />
+  </ItemGroup>
+
+</Project>

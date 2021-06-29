@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TaskTracker", "TaskTracker.fsproj", "{FA1FBC21-3CEE-440B-85BF-7273DC472413}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TaskTracker", "TaskTracker.fsproj", "{FA1FBC21-3CEE-440B-85BF-7273DC472413}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BusinessLogic", "BusinessLogic\BusinessLogic.fsproj", "{A757C496-58D6-4F11-8EF9-963C4A771196}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "BusinessLogic", "BusinessLogic\BusinessLogic.fsproj", "{A757C496-58D6-4F11-8EF9-963C4A771196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{F47436BC-631D-4B68-8AC6-64422BF893F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A757C496-58D6-4F11-8EF9-963C4A771196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A757C496-58D6-4F11-8EF9-963C4A771196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A757C496-58D6-4F11-8EF9-963C4A771196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47436BC-631D-4B68-8AC6-64422BF893F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47436BC-631D-4B68-8AC6-64422BF893F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47436BC-631D-4B68-8AC6-64422BF893F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47436BC-631D-4B68-8AC6-64422BF893F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

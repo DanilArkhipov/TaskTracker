@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <div class="logo header__logo">
+                <a href="./index.html" class="header__link">
+                    <img src="../images/logo.png" alt="F#TaskTracker" class="logo-img">
+                </a>
+            </div>
+            <div class="header__content">
+                <ul class="header-list">
+                    <li class="header-list__item header-list__item--active">
+                        <a href="./personal.html" class="header__link">Главная</a>
+                    </li>
+                </ul>
+                <ul class="header-list">
+                    <li class="header-list__item">
+                        <a href="./login.html" class="header__link">Войти</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="reg-log">
+        <div class="container">
+            <div class="box reg-log-box">
+                <div class="reg-log-box__header">
+                    <h3 class="reg-log-box__title">Зарегистрироваться</h3>
+                    <a href="./login.html" class="reg-log-box__sub-text">Войти</a>
+                </div>
+                <form action="" class="reg-log-form">
+                    <div class="input-wrapper">
+                        <label for="" class="input__label">Придумайте имя</label>
+                        <input type="text" class="input" placeholder="Имя">
+                        <span class="input__validation"></span>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="" class="input__label">Укажите электронный адрес</label>
+                        <input type="email" class="input" placeholder="Почта">
+                        <span class="input__validation"></span>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="" class="input__label">Придумайте пароль</label>
+                        <input type="password" class="input" placeholder="Пароль">
+                        <span class="input__validation"></span>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="" class="input__label">Повторите пароль</label>
+                        <input type="password" class="input input--validation-error" placeholder="Повторите пароль">
+                        <span class="input__validation">Пароли не совпадают</span>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="submit" class="btn btn-primary form__btn" value="Зарегистрироваться">
+                    </div>
+
+                </form>
+                <div class="reg-log-box__footer">
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
